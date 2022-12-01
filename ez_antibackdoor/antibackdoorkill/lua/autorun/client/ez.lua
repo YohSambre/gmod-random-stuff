@@ -1,3 +1,4 @@
+--I created this code about 2/3 years ago, it is so simple and yet it works very well
 function FuckOff(ply)
   Msg( "\n" )
 end
