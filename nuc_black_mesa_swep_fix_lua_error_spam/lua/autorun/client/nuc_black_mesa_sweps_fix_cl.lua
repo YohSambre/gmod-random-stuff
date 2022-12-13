@@ -1,0 +1,1 @@
+hook.Remove( "Think", "BewScripts" ) -- scam developer :^)

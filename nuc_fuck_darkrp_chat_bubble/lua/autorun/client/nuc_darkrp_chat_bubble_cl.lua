@@ -1,0 +1,1 @@
+hook.Remove( "PostPlayerDraw", "DarkRP_ChatIndicator" )
