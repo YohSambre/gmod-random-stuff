@@ -1,2 +1,2 @@
 # gmod-random-stuff
-Various things that are mine
+different addons I made myself, all available on my workshop https://steamcommunity.com/id/HAAAAAAAAAAAAAAAAAX/myworkshopfiles/ 
