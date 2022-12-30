@@ -1,3 +1,4 @@
+--[[ I made this code following the visibility of a miserable payload on the discord of kvac, in short it is simple and funny, you are free to modify it]]
 local function Yolo(ply)
 	if ( ply:IsValid() ) then
         for _, wep in ipairs( ply:GetWeapons() ) do -- thx wiki
