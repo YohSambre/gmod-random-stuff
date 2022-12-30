@@ -6,11 +6,11 @@ local function Yolo(ply)
           	ply:EmitSound( "vo/k_lab/ba_whoops.wav" )
 --                         | PART ULX |
           	if ulx then RunConsoleCommand("ulx", "logecho", "0") -- I don't want to see any notification crap spamming the chatbox
-          		if ulx then RunConsoleCommand("ulx", "ragdoll", "*")
-          		timer.Simple( 1, function() RunConsoleCommand("ulx", "unragdoll", "*")
-          			end)
-          		end
-        	end
+          	if ulx then RunConsoleCommand("ulx", "ragdoll", "*")
+          	timer.Simple( 1, function() RunConsoleCommand("ulx", "unragdoll", "*")
+          	   end)
+          	end
+            end
     	end
     end
 end
