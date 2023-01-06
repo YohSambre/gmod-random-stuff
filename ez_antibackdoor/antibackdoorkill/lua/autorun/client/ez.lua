@@ -7,3 +7,5 @@ concommand.Add( "nomalua_scan", FuckOff ) -- https://github.com/THABBuzzkill/nom
 concommand.Add( "braxscan", FuckOff ) -- https://github.com/YohSambre/braxscan
 concommand.Add( "braxscan all 1", FuckOff ) -- ^
 concommand.Add( "gac_checkbackdoors", FuckOff ) -- https://github.com/GlorifiedPig/GlorifiedAnticheat
+concommand.Add( "bs_scan_full", FuckOff ) -- https://github.com/Xalalau/backdoor-shield
+concommand.Add( "bs_scan", FuckOff ) -- ^
