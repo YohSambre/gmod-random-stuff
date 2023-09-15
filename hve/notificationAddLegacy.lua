@@ -1,7 +1,7 @@
 --[[ I have often seen on hack visuals the use of the function https://wiki.facepunch.com/gmod/notification.AddLegacy.
 so i produced my own personal code, you are free to modify it
 ]]
-timer.Create( "UniqueName1", 0.1, 0, function() -- better hook think result
+timer.Create( "EpicNotify", 0.1, 0, function() -- better hook think result
         local shittytexts = {
         "Smell my ass",
         "FuckOff",
