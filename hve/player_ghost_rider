@@ -1,3 +1,4 @@
+--[[ first attempt at creating with emitter:Add, I'm not very skilled but I still managed to get a nice rendering. ]]
 local function Hooot()
 local pos = LocalPlayer():GetPos()
 local emitter = ParticleEmitter( pos )
