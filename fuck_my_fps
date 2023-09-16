@@ -1,5 +1,0 @@
-local function Wow()
-    RunConsoleCommand("menu_cleanupgmas")
-end
-
-hook.Add( "Think", "DropMyFPS", Wow )
