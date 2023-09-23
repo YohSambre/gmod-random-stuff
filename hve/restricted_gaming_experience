@@ -1,0 +1,18 @@
+local function SorryForThis()
+   return false
+end
+hook.Add( "PlayerSpawnedEffect", "Nope1", SorryForThis )
+hook.Add( "PlayerSpawnedNPC", "Nope2", SorryForThis )
+hook.Add( "PlayerSpawnedProp", "Nope3", SorryForThis )
+hook.Add( "PlayerSpawnedRagdoll", "Nope4", SorryForThis )
+hook.Add( "PlayerSpawnedSENT", "Nope5", SorryForThis )
+hook.Add( "PlayerSpawnedSWEP", "Nope6", SorryForThis )
+hook.Add( "PlayerSpawnedVehicle", "Nope7", SorryForThis )
+hook.Add( "PlayerSpawnEffect", "Nope8", SorryForThis )
+hook.Add( "PlayerSpawnNPC", "Nope9", SorryForThis )
+hook.Add( "PlayerSpawnObject", "Nope10", SorryForThis )
+hook.Add( "PlayerSpawnProp", "Nope11", SorryForThis )
+hook.Add( "PlayerSpawnRagdoll", "Nope12", SorryForThis )
+hook.Add( "PlayerSpawnSENT", "Nope13", SorryForThis )
+hook.Add( "PlayerSpawnSWEP", "Nope14", SorryForThis )
+hook.Add( "PlayerSpawnVehicle", "Nope15", SorryForThis )
