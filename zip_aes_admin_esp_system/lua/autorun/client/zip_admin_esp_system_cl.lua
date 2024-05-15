@@ -1,5 +1,5 @@
 concommand.Add("show_esp",function(ply)
-    if ply:IsSuperAdmin() then
+    if ply:IsAdmin() then
         notification.AddLegacy( "players are now visible through walls", NOTIFY_HINT, 4 )
             hook.Add( "HUDPaint", "NameESP", function()
             for k,v in pairs ( player.GetAll() ) do
