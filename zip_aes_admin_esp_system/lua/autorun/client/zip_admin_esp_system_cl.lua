@@ -13,7 +13,7 @@ concommand.Add("show_esp",function(ply)
 end)
 
 concommand.Add("hide_esp", function(ply)
-        if ply:IsSuperAdmin() then
+        if ply:IsAdmin() then
         hook.Remove( "HUDPaint", "NameESP" )
         notification.AddLegacy( "players are no longer visible through walls", NOTIFY_HINT, 4 )
     end
