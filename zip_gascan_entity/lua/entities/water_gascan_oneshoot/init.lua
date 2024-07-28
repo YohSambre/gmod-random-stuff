@@ -20,12 +20,12 @@ function ENT:Touch(ent)
     }
     
     if IsValid(ent) and Customisableclass[ent:GetClass()] then
-        self:EmitSound("player/pl_drown1.wav")
+        self:EmitSound("player/pl_drown1.wav") -- gascan sound you can change > https://maurits.tv/data/garrysmod/wiki/wiki.garrysmod.com/index8f77.html
         ent:Extinguish()
         local watereffectdata = EffectData()
         watereffectdata:SetOrigin(self:GetPos())
         watereffectdata:SetEntity(self)
-        util.Effect("watersplash", watereffectdata)
+        util.Effect("watersplash", watereffectdata) -- gascan particle effect you can change > https://wiki.facepunch.com/gmod/Default_Effects
         self:Remove()
     end
 end
