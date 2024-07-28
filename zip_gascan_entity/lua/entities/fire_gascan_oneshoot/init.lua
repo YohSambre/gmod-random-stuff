@@ -22,12 +22,12 @@ function ENT:Touch(ent)
         -- Add here other entity classes here if necessary
     }
     if IsValid(ent) and Customisableclass[ent:GetClass()] then
-        self:EmitSound("player/sprayer.wav")
+        self:EmitSound("player/sprayer.wav") -- gascan sound you can change > https://maurits.tv/data/garrysmod/wiki/wiki.garrysmod.com/index8f77.html
         ent:Ignite(30)
         local fireeffectdata = EffectData()
         fireeffectdata:SetOrigin(self:GetPos())
         fireeffectdata:SetEntity(self)
-        util.Effect("gunshotsplash", fireeffectdata)
+        util.Effect("gunshotsplash", fireeffectdata) -- gascan particle effect you can change > https://wiki.facepunch.com/gmod/Default_Effects
         self:Remove()
     end
 end
